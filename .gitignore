@@ -1,0 +1,14 @@
+# OpenOffice
+.~lock*
+
+# Composer
+/vendor/
+
+# Deploy
+/deploy/
+
+# Node.js
+/node_modules/
+
+# Sass
+.sass-cache
