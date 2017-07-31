@@ -162,23 +162,6 @@
 							</table>
 						</div>
 					</div>
-
-					<div class="postbox">
-						<h2 class="hndle"><span><?php esc_html_e( 'Pronamic News', 'cm-idin' ); ?></span></h2>
-
-						<div class="inside">
-							<?php
-
-							wp_widget_rss_output( 'http://feeds.feedburner.com/pronamic', array(
-								'link'  => __( 'https://www.pronamic.eu/', 'cm-idin' ),
-								'url'   => 'http://feeds.feedburner.com/pronamic',
-								'title' => __( 'Pronamic News', 'cm-idin' ),
-								'items' => 10,
-							) );
-
-							?>
-						</div>
-					</div>
 				</div>
 			</div>
 
