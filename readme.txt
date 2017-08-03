@@ -1,7 +1,6 @@
 === CM iDIN for WooCommerce ===
-Contributors: pronamic, remcotolsma 
-Tags: cm, idin, woocommerce, webshop, age
-Donate link: https://www.pronamic.eu/donate/
+Contributors: pronamic, remcotolsma, jwvugt
+Tags: cm, idin, woocommerce, webshop, age, identification, login
 Requires at least: 4.7
 Tested up to: 4.8
 Stable tag: 1.0.0
@@ -10,14 +9,21 @@ With iDIN a merchant can identify the consumers name and address and verify if t
 
 == Description ==
 
-iDIN is a way to identify the customers data through a verification system, build by the Dutch banks. For more information check the official iDIN website. You can use this extension if your store has an obligation to verify customer data (suge as age verification) for every purchase. This extension can verify customer data through CM services with the iDIN database (the extension integrates with CM services and not directly with iDIN). If you install this extension, during checkout there will be a possibility for the customer to login and verify data with his/her bank. After checking if the customers age is 18 years or older, the checkout will go to the next step in the process. **You will need an separate account for subscription with CM Groep** to connect your webshop iDIN. CM Groep is a third party that connects your WordPress webshop with the iDIN database and is one of the official Identity Service Providers for iDIN.
+iDIN is a way to identify the customers data through a verification system, built by the Dutch banks. For more information about iDIN check [www.cm.com/nl-nl/producten/toegang/idin](https://www.cm.com/nl-nl/producten/toegang/idin).
 
-A subscription and transaction fee applies on this service of provider CM:
+The extension is designed for WordPress **WooCommerce** webshops. Customers can register and login to your webshop using iDIN. You can also configure age verification on all or specific products during checkout. After checking if the customers age is 18 years or older, the checkout will go to the next step in the process.
 
-*	**Base fee: 225-425€/month**
-*	**Transactions: 0,25-0,55€/transaction**
+**You will need an separate account for subscription with CM** to connect your webshop iDIN, which you can obtain at [Create iDIN Account](https://idin.cmtelecom.com/merchant/register). CM is a third party that connects your WordPress webshop with the iDIN database and is one of the official Digital Identity Service Providers for iDIN in The Netherlands.
 
-There are no additional costs for the iDIN service itself. For more information and full pricing details please contact CM: [http://get.cm.nl/idin-wordpress-woocommerce/](http://get.cm.nl/idin-wordpress-woocommerce/).
+== Screenshots ==
+
+1. WooCommerce product
+2. WooCommerce cart
+3. WooCommerce checkout 1
+4. WooCommerce checkout 2
+5. WordPress dashboard
+6. WordPress settings
+7. WordPress transactions
 
 = Features =
 
@@ -27,7 +33,6 @@ There are no additional costs for the iDIN service itself. For more information 
 *	Account iDIN age verification 18+
 *	Checkout with iDIN age verification 18+
 *	Product related checkout with iDIN age verification 18+
-*	Shipping method dependency of age verification
 *	(used) iDIN credits details in dashboard
 *	Extensive iDIN logging
 
@@ -61,34 +66,32 @@ CM is a Digital Identity Service Provider for iDIN. Find more information about 
 
 Automatic installation is the easiest option as WordPress handles the file transfers itself and you don’t need to leave your web browser. To do an automatic install of CM iDIN, log in to your WordPress dashboard, navigate to the Plugins menu and click Add New.
 
-In the search field type “DM iDIN” and click Search Plugins. Once you’ve found our CM iDIN plugin you can view details about it such as the the point release, rating and description. Most importantly of course, you can install it by simply clicking “Install Now”.
+In the search field type “CM iDIN” and click Search Plugins. Once you’ve found our CM iDIN plugin you can view details about it such as the version number, rating and description. Most importantly of course, you can install it by simply clicking “Install Now”.
 
 = Manual installation =
 
 The manual installation method involves downloading our CM iDIN plugin and uploading it to your webserver via your favourite FTP application. The WordPress codex contains [instructions on how to do this here](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
 
+= Configuration =
+
+After installation you can see CM iDIN in your settings menu. Go to “instellingen” or “configuration”. Fill in the Merchant token that you received from CM. After configuring the merchant token, it is automatically validated by CM.
+
+In case you use Modus = Test and you’re performing iDIN transactions, you’ll receive dummy data to test with. 
+With Modus = Live you’ll receive real consumer data as stored in the banks consumer database.
+
 = Updating =
 
 Automatic updates should work like a charm; as always though, ensure you backup your site just in case.
 
-== Screenshots ==
-
-1. WooCommerce product
-2. WooCommerce cart
-3. WooCommerce checkout 1
-4. WooCommerce checkout 2
-5. WordPress dashboard
-6. WordPress settings
-7. WordPress transactions
-
 == Changelog ==
 
-= 1.0.0 - 2017-06-07 =
+= 1.0.0 - 2017-07-31 =
 
 *	Initial release.
 
 == Links ==
 
-*	[Pronamic](https://www.pronamic.eu/)
 *	[CM](https://www.cm.com/)
-*	[Remco Tolsma](http://www.remcotolsma.nl/)
+*	[CM iDIN](https://www.cm.com/nl-nl/producten/toegang/idin)
+*	[Pronamic](https://www.pronamic.eu/)
+*	[iDIN](https://www.idin.nl)
