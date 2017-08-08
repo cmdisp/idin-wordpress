@@ -2,7 +2,7 @@
 # This file is distributed under the GPL-3.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: CM iDIN for WooCommerce 1.0.0\n"
+"Project-Id-Version: CM iDIN for WooCommerce 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cm-idin\n"
 "POT-Creation-Date: 2017-05-26 12:39:37+00:00\n"
 "MIME-Version: 1.0\n"
@@ -114,14 +114,6 @@ msgstr ""
 
 #: admin/page-dashboard.php:160
 msgid "support@pronamic.eu"
-msgstr ""
-
-#: admin/page-dashboard.php:167 admin/page-dashboard.php:175
-msgid "Pronamic News"
-msgstr ""
-
-#: admin/page-dashboard.php:173
-msgid "https://www.pronamic.eu/"
 msgstr ""
 
 #: admin/page-transaction.php:15 classes/class-transactions-list-table.php:11

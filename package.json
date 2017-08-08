@@ -1,6 +1,6 @@
 {
   "name": "cm-idin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "license": "GPL-3.0",
   "homepage": "https://github.com/cmdisp/idin-wordpress",
@@ -19,7 +19,7 @@
     "grunt-contrib-imagemin": "^2.0.1",
     "grunt-contrib-jshint": "~1.1.0",
     "grunt-contrib-uglify": "^3.0.1",
-    "grunt-git": "^1.0.4",
+    "grunt-git": "^1.0.5",
     "grunt-phpcs": "^0.4.0",
     "grunt-phplint": "0.1.0",
     "grunt-phpunit": "~0.3.6",
