@@ -7,7 +7,7 @@ final class CM_IDIN_Plugin {
 	/**
 	 * Version.
 	 */
-	private $version = '1.0.0';
+	private $version = '1.0.1';
 
 	/**
 	 * Instance.

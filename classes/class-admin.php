@@ -360,7 +360,7 @@ class CM_IDIN_Admin {
 		add_submenu_page(
 			'cm-idin',
 			__( 'CM iDIN Transactions', 'cm-idin' ),
-			__( 'Transactions', 'cm-idin' ) . $badge,
+			__( 'Transactions', 'cm-idin' ),
 			'manage_options',
 			'cm-idin-transactions',
 			array( $this, 'page_transactions' )

@@ -3,7 +3,7 @@ Contributors: pronamic, remcotolsma, jwvugt
 Tags: cm, idin, woocommerce, webshop, age, identification, login
 Requires at least: 4.7
 Tested up to: 4.8
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
 With iDIN a merchant can identify the consumers name and address and verify if the age is 18+.
 
@@ -14,16 +14,6 @@ iDIN is a way to identify the customers data through a verification system, buil
 The extension is designed for WordPress **WooCommerce** webshops. Customers can register and login to your webshop using iDIN. You can also configure age verification on all or specific products during checkout. After checking if the customers age is 18 years or older, the checkout will go to the next step in the process.
 
 **You will need an separate account for subscription with CM** to connect your webshop iDIN, which you can obtain at [Create iDIN Account](https://idin.cmtelecom.com/merchant/register). CM is a third party that connects your WordPress webshop with the iDIN database and is one of the official Digital Identity Service Providers for iDIN in The Netherlands.
-
-== Screenshots ==
-
-1. WooCommerce product
-2. WooCommerce cart
-3. WooCommerce checkout 1
-4. WooCommerce checkout 2
-5. WordPress dashboard
-6. WordPress settings
-7. WordPress transactions
 
 = Features =
 
@@ -82,6 +72,16 @@ With Modus = Live you’ll receive real consumer data as stored in the banks con
 = Updating =
 
 Automatic updates should work like a charm; as always though, ensure you backup your site just in case.
+
+== Screenshots ==
+
+1. WooCommerce product
+2. WooCommerce cart
+3. WooCommerce checkout 1
+4. WooCommerce checkout 2
+5. WordPress dashboard
+6. WordPress settings
+7. WordPress transactions
 
 == Changelog ==
 
