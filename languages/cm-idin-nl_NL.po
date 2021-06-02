@@ -5,14 +5,14 @@ msgstr ""
 "Project-Id-Version: CM iDIN\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cm-idin\n"
 "POT-Creation-Date: 2017-05-26 12:39:37+00:00\n"
-"PO-Revision-Date: 2017-08-08 09:08+0100\n"
+"PO-Revision-Date: 2021-06-02 12:37+0200\n"
 "Last-Translator: Remco Tolsma <info@remcotolsma.nl>\n"
 "Language-Team: Pronamic <info@pronamic.nl>\n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 2.4.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -157,24 +157,20 @@ msgstr "Adres"
 msgid "Age"
 msgstr "Leeftijd"
 
-#: admin/page-transaction.php:148
-#: classes/class-transactions-list-table.php:130
+#: admin/page-transaction.php:148 classes/class-transactions-list-table.php:130
 msgid "j F Y"
 msgstr "j F Y"
 
 #. translators: %s: age
-#: admin/page-transaction.php:158
-#: classes/class-transactions-list-table.php:140
+#: admin/page-transaction.php:158 classes/class-transactions-list-table.php:140
 msgid "%s year"
 msgstr "%s jaar"
 
-#: admin/page-transaction.php:167
-#: classes/class-transactions-list-table.php:149
+#: admin/page-transaction.php:167 classes/class-transactions-list-table.php:149
 msgid "Yes, 18+ verified."
 msgstr "Ja, 18+ geverifieerd."
 
-#: admin/page-transaction.php:169
-#: classes/class-transactions-list-table.php:151
+#: admin/page-transaction.php:169 classes/class-transactions-list-table.php:151
 msgid "No, not 18+ verified."
 msgstr "Nee, niet 18+ geverifieerd."
 

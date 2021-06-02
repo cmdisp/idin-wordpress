@@ -4,8 +4,8 @@ Plugin Name: CM iDIN for WooCommerce
 Plugin URI: https://www.pronamic.eu/plugins/cm-idin/
 Description: With iDIN a merchant can identify the consumers name and address and verify if the age is 18+.
 
-Version: 1.0.1
-Requires at least: 4.7
+Version: 1.0.2
+Requires at least 4.7
 
 Author: CM
 Author URI: https://www.cm.nl/
