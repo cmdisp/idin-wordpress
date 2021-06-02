@@ -13,6 +13,9 @@ Author URI: https://www.cm.nl/
 Text Domain: cm-idin
 Domain Path: /languages/
 
+WC requires at least: 3.1
+WC tested up to: 5.3
+
 License: GPL-3.0
 
 GitHub URI: https://github.com/cmdisp/idin-wordpress

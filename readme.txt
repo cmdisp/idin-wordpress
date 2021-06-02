@@ -86,6 +86,9 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 
 == Changelog ==
 
+= 1.0.3 - Unreleased =
+*	Added `WC requires` and `WC tested up to` headers in `readme.txt`.
+
 = 1.0.2 - 2021-06-02 =
 *	Tested up to WordPress 5.7.2.
 
