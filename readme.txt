@@ -9,16 +9,25 @@ With iDIN a merchant can identify the consumers name and address and verify if t
 
 == Description ==
 
-iDIN is a way to identify the customers data through a verification system, built by the Dutch banks. For more information about iDIN check [www.cm.com/nl-nl/producten/toegang/idin](https://www.cm.com/nl-nl/producten/toegang/idin).
+iDIN is a way to identify the customers data through a verification system, built by the Dutch banks. For more information about iDIN check [www.cm.nl/idin](https://www.cm.nl/idin).
 
 The extension is designed for WordPress **WooCommerce** webshops. Customers can register and login to your webshop using iDIN. You can also configure age verification on all or specific products during checkout. After checking if the customers age is 18 years or older, the checkout will go to the next step in the process.
 
 **You will need an separate account for subscription with CM** to connect your webshop iDIN, which you can obtain at [Create iDIN Account](https://idin.cmtelecom.com/merchant/register). CM is a third party that connects your WordPress webshop with the iDIN database and is one of the official Digital Identity Service Providers for iDIN in The Netherlands.
 
+== Screenshots ==
+
+1. WooCommerce product
+2. WooCommerce cart
+3. WooCommerce checkout 1
+4. WooCommerce checkout 2
+5. WordPress dashboard
+6. WordPress settings
+7. WordPress transactions
+
 = Features =
 
 *	One time login and registration with iDIN
-*	One time login without registration with iDIN
 *	Recurring login with iDIN
 *	Account iDIN age verification 18+
 *	Checkout with iDIN age verification 18+
@@ -48,7 +57,9 @@ This extension is established by collaboration of Pronamic and CM. Do you need a
 
 = Need an iDIN licence? =
 
-CM is a Digital Identity Service Provider for iDIN. Find more information about connecting your webshop to iDIN via CM here: [http://get.cm.nl/idin-wordpress-woocommerce/](http://get.cm.nl/idin-wordpress-woocommerce/).
+CM is a Digital Identity Service Provider for iDIN. After creating an account at [https://idin.cmtelecom.com/merchant/register/](https://idin.cmtelecom.com/merchant/register) you can immediately start testing with dummy data. After signing a contract with CM, you will get access to live consumer data.
+
+For more information about connecting your WooCommerce webshop to iDIN and to get in contact with CM Identity Services check [http://get.cm.nl/idin-wordpress-woocommerce/](http://get.cm.nl/idin-wordpress-woocommerce/).
 
 == Installation ==
 
@@ -73,16 +84,6 @@ With Modus = Live you’ll receive real consumer data as stored in the banks con
 
 Automatic updates should work like a charm; as always though, ensure you backup your site just in case.
 
-== Screenshots ==
-
-1. WooCommerce product
-2. WooCommerce cart
-3. WooCommerce checkout 1
-4. WooCommerce checkout 2
-5. WordPress dashboard
-6. WordPress settings
-7. WordPress transactions
-
 == Changelog ==
 
 = 1.0.2 - 2021-06-02 =
@@ -102,6 +103,6 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 == Links ==
 
 *	[CM](https://www.cm.com/)
-*	[CM iDIN](https://www.cm.com/nl-nl/producten/toegang/idin)
+*	[CM iDIN](https://www.cm.nl/idin)
 *	[Pronamic](https://www.pronamic.eu/)
-*	[iDIN](https://www.idin.nl)
+*	[iDIN (Betaalvereniging Nederland)](https://www.idin.nl)
