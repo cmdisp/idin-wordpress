@@ -2,8 +2,8 @@
 Contributors: pronamic, remcotolsma, jwvugt
 Tags: cm, idin, woocommerce, webshop, age, identification, login
 Requires at least: 4.7
-Tested up to: 4.8
-Stable tag: 1.0.1
+Tested up to: 5.7.2
+Stable tag: 1.0.2
 
 With iDIN a merchant can identify the consumers name and address and verify if the age is 18+.
 
@@ -84,6 +84,16 @@ Automatic updates should work like a charm; as always though, ensure you backup 
 7. WordPress transactions
 
 == Changelog ==
+
+= 1.0.2 - 2021-06-02 =
+*	Tested up to WordPress 5.7.2.
+
+= 1.0.1 - 2017-08-08 =
+
+*	Removed Pronamic News postbox on admin dashboard page.
+*	Update to the new CM logo.
+*	Update documentation in readme files.
+*	Fixed notice: "Undefined variable: badge".
 
 = 1.0.0 - 2017-07-31 =
 
